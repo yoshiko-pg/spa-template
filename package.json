@@ -19,13 +19,9 @@
     "precommit": "lint-staged",
     "prepush": "npm run check"
   },
-  "lint-staged": {
-    "*.js": [
-      "format:fix",
-      "lint:fix",
-      "git add"
-    ]
-  },
+  "pre-commit": [
+    "check:fix"
+  ],
   "dependencies": {
     "react": "^16.2.0",
     "react-redux": "^5.0.6",
