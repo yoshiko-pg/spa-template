@@ -8,7 +8,7 @@
   "scripts": {
     "setup": "yarn install && yarn flow-typed install",
     "build": "parcel src/index.html",
-    "format": "prettier --single-quote --trailing-comma=all \"**/*.js\"",
+    "format": "prettier '**/*.js'",
     "format:check": "npm run format -- --list-different",
     "format:fix": "npm run format -- --write",
     "lint": "eslint --ext .js --ext .jsx src ./",

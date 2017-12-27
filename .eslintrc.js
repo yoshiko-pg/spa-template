@@ -257,4 +257,4 @@ module.exports = {
     'react/jsx-uses-vars': 2,
     'react/jsx-uses-react': 2,
   },
-};
+}
