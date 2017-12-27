@@ -1,4 +1,3 @@
-/* eslint quote-props: ["error", "always"] */
 /* global module */
 
 module.exports = {
@@ -195,7 +194,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
     quotes: ['error', 'single', 'avoid-escape'],
     'require-jsdoc': 0,
-    semi: ['error', 'always'],
+    semi: ['error', 'never'],
     'semi-spacing': [
       'error',
       {
