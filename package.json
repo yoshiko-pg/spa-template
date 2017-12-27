@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "setup": "yarn install && yarn flow-typed install",
+    "build": "parcel src/index.html",
     "format": "prettier --single-quote --trailing-comma=all \"**/*.js\"",
     "format:check": "npm run format -- --list-different",
     "format:fix": "npm run format -- --write",
@@ -47,6 +48,7 @@
     "flow-bin": "^0.61.0",
     "flow-typed": "^2.2.3",
     "lint-staged": "^6.0.0",
+    "parcel-bundler": "^1.3.1",
     "pre-commit": "^1.2.2",
     "prettier": "1.9.2"
   }
