@@ -1,0 +1,8 @@
+{
+  "name": "react-redux-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yoshiko-pg/react-redux-template.git",
+  "author": "maasa <maasa.giss2@gmail.com>",
+  "license": "MIT"
+}
