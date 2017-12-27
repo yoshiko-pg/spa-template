@@ -6,9 +6,17 @@
   "author": "maasa <maasa.giss2@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "setup": "yarn install && yarn flow-typed install",
     "format": "prettier --single-quote --trailing-comma=all \"**/*.js\"",
     "format:check": "npm run format -- --list-different",
-    "format:fix": "npm run format -- --write"
+    "format:fix": "npm run format -- --write",
+    "lint": "eslint --ext .js --ext .jsx src ./",
+    "lint:fix": "npm run lint -- --fix",
+    "typecheck": "flow check",
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run test",
+    "check:fix": "npm run format:fix && npm run lint:fix && npm run typecheck && npm run test",
+    "precommit": "lint-staged",
+    "prepush": "npm run check"
   },
   "dependencies": {
     "react": "^16.2.0",
