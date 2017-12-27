@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/.*
+.*/config/.*
+
+[include]
+
+[libs]
+decls/
+
+[options]
+module.ignore_non_literal_requires=true
+module.system.node.resolve_dirname=src
+unsafe.enable_getters_and_setters=true
