@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "react",
+    "flow",
+    [
+      "env",
+      {
+        "targets": {
+          "Chrome": 59
+        },
+        "exclude": [
+          "transform-regenerator"
+        ]
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ],
+}
