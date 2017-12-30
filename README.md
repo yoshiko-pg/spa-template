@@ -1,12 +1,11 @@
-# react-redux-template
+# SPA-template
 
 - ES.next
-- React
-- Redux
 - Flowtype
 - Parcel
 - Prettier
 - ESLint
+- React
 
 ## setup & run
 

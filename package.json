@@ -1,8 +1,8 @@
 {
-  "name": "react-redux-template",
+  "name": "spa-template",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:yoshiko-pg/react-redux-template.git",
+  "repository": "git@github.com:yoshiko-pg/spa-template.git",
   "author": "maasa <maasa.giss2@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -24,8 +24,6 @@
   ],
   "dependencies": {
     "react": "^16.2.0",
-    "react-redux": "^5.0.6",
-    "redux": "^3.7.2",
     "ress": "^1.2.2"
   },
   "devDependencies": {
